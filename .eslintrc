@@ -10,6 +10,10 @@
       "jsx": true
     }
   },
+  /*
+   * extiende de configuraciones previas.
+   */
+  "extends": ["eslint: recommended"],
   "rules": {
     /*
      * para este ejemplo se usará Babel, por ende el strict mode etará por default.
