@@ -18,16 +18,21 @@
     /*
      * para este ejemplo se usará Babel, por ende el strict mode etará por default.
      */
-    "strict": ["error", "never"],
+    "strict": ["error", "never"]
     /*
      * No compila el programa si tiene un typo, si no desea
      * este comportamineto cambiar warn en vez de error o solo off.
      */
+    /*
+    * Se eliminan estas configuraciones porque vamos a usar las de default,
+    * pero podemos hacer nuestras reglas customiables.
+
     "valid-typeof": "error",
     "no-unsafe-negation": "error",
     "no-unused-vars": "error",
     "no-unexpected-multiline": "error",
     "no-undef": "error"
+    */
   },
   "env": {
     "browser": true
