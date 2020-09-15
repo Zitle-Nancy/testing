@@ -1,0 +1,31 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    /*
+     * @params module o files, en este caso será modulo
+     * porque los archivos de javascript serán modulos.
+     */
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    /*
+     * para este ejemplo se usará Babel, por ende el strict mode etará por default.
+     */
+    "strict": ["error", "never"],
+    /*
+     * No compila el programa si tiene un typo, si no desea
+     * este comportamineto cambiar warn en vez de error o solo off.
+     */
+    "valid-typeof": "error",
+    "no-unsafe-negation": "error",
+    "no-unused-vars": "error",
+    "no-unexpected-multiline": "error",
+    "no-undef": "error"
+  },
+  "env": {
+    "browser": true
+  }
+}
